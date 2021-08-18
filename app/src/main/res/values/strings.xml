@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Instagram-Like-App</string>
+    <string name="login">Login</string>
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="welcome1">WELCOME</string>
+    <string name="register">REGISTER</string>
+    <string name="registration_page">REGISTRATION PAGE</string>
+    <string name="name">Name</string>
+    <string name="password1">Password</string>
+    <string name="usernam">Username</string>
+    <string name="don_t_have_account_register_here">Don\'t Have Account. Register Here</string>
+    <string name="email">EMAIL</string>
+    <string name="email1">EMAIL</string>
+</resources>

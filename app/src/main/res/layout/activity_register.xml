@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".RegisterActivity">
+
+
+    <Button
+        android:id="@+id/Reg"
+        android:layout_width="230dp"
+        android:layout_height="54dp"
+        android:background="@drawable/button"
+        android:text="@string/register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.846" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="217dp"
+        android:layout_height="42dp"
+        android:background="@drawable/roundcorner"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/email"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="217dp"
+        android:layout_height="42dp"
+        android:autofillHints=""
+        android:background="@drawable/roundcorner"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/password1"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.624" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="406dp"
+        android:layout_height="56dp"
+        android:text="@string/registration_page"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColorHighlight="#F57F17"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="217dp"
+        android:layout_height="42dp"
+        android:autofillHints=""
+        android:background="@drawable/roundcorner"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.313" />
+
+    <EditText
+        android:id="@+id/UserName"
+        android:layout_width="217dp"
+        android:layout_height="42dp"
+        android:autofillHints=""
+        android:background="@drawable/roundcorner"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/usernam"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.153" />
+</androidx.constraintlayout.widget.ConstraintLayout>

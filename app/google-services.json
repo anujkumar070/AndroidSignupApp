@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "702164521441",
+    "firebase_url": "https://instagram-like-app-824fe.firebaseio.com",
+    "project_id": "instagram-like-app-824fe",
+    "storage_bucket": "instagram-like-app-824fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702164521441:android:118cb13512a76a5a1dc2a0",
+        "android_client_info": {
+          "package_name": "com.example.instagram_like_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702164521441-4immavglgfuelu9l1n7huv0hp6t93qs5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM83uY_zOa08-Fx1FiQaxVYs8VJiQeQt8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702164521441-4immavglgfuelu9l1n7huv0hp6t93qs5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
